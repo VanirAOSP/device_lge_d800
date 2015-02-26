@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product-if-exists, vendor/lge/d800/d800-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/g2-common/g2-common-vendor.mk)
 $(call inherit-product, device/lge/g2-common/g2.mk)
 
 ## overlays
